@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjan fitness gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* css reset */
+        body {
+            font-family: "Inika", serif;
+            color: rgb(255, 255, 255);
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bgg.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            
+        }
+
+        /* .header {
+            background-color: rgb(0, 0, 0, 0.5);
+            position: sticky;
+        } */
+
+        .left img {
+            width: 70px;
+            filter: invert(100%);
+            margin-left: 7px;
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bolder;
+            line-height: 5px;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            position: absolute;
+            display: inline-block;
+            left: 30px;
+            top: 0px;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            margin: 0px auto;
+            width: 38%;
+        }
+
+        .btn {
+            font-family: "Inika", serif;
+            border: 2px solid rgb(150, 150, 150);
+            border-radius: 5px;
+            background-color: rgb(0, 0, 0, 0.2);
+            color: white;
+            margin: 0 8px;
+            padding: 5px 12px;
+            font-size: 15px;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background-color: rgb(49, 49, 48);
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            position: absolute;
+            display: inline-block;
+            right: 25px;
+            top: 15px;
+        }
+
+        /* .navbar {
+            display: inline-block;
+        } */
+
+        .navbar li {
+            display: inline-block;
+            font-size: 22px;
+        }
+
+        .navbar li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 28px 14px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: rgb(126, 122, 122);
+            text-decoration: underline;
+        }
+
+        .container {
+            /* border: 2px solid rgb(255, 255, 255); */
+            margin: 155px 450px;
+            padding: 2px;
+            border-radius: 10px;
+            width: 35%;
+            background-color: rgb(0, 0, 0, 0.5);
+        }
+
+        .form-group input {
+            font-family: "Inika", serif;
+            text-align: center;
+            display: block;
+            width: 445px;
+            padding: 7px;
+            border: 2px solid rgb(170, 170, 170);
+            margin: 7px auto;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+
+        .container h1 {
+            text-align: center;
+            font-size: 35px;
+            line-height: 25px;
+            /* color: rgb(112, 255, 0); */
+        }
+
+        .container button {
+            display: block;
+            margin: 20px auto;
+            padding: 6px;
+            width: 85%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/gym.png" alt="dumbell logo">
+            <div>Anjan Gym</div>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Turka now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
