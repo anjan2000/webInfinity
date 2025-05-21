@@ -238,3 +238,11 @@ footer {
 .center {
   text-align: center;
 }
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  z-index: 99;
+}
